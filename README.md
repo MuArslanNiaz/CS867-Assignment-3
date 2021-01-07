@@ -15,7 +15,7 @@ These are the architecture implemnted in this task with the architecture details
 |-------| ------------- | ---------------- | ---- | -------- |
 |1| VGG Trasnfer Learning (flatten, FC RELU, Softmax)  | 10  | 0.2735 | 0.9077 |
 |2| VGG Trasnfer Learning (flatten, FC RELU, Softmax, layer 16 is Frozen)  | 10  | 0.2565 | 0.9083 |
-|3| **VGG Trasnfer Learning (flatten, FC RELU, Softmax)**  | **10**  | **0.2306** | **0.9147** |
+|3| **VGG Trasnfer Learning (flatten, FC Sigmoid, Softmax)**  | **10**  | **0.2306** | **0.9147** |
 # Learning curve
 ![Loss and Accuracy per Epoch Case 1.png](graphs/Loss%20and%20Accuracy%20per%20Epoch%20Case%201.png)
 ![Loss and Accuracy per Epoch Case 2.png](graphs/Loss%20and%20Accuracy%20per%20Epoch%20Case%202.png)
