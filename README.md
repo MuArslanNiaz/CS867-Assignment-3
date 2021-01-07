@@ -11,7 +11,7 @@ Here are list of things that exists in this repository.
 2. Provide the path to dataset folder in veriable of **path_train, path_test, and path_pred** than proceed with running code.
 # Details regarding task
 These are the architecture implemnted in this task with the architecture details. Here as it is obserable Case 3 is more successful.
-|Case Number| Atchitecture  | Number of epochs | Loss | Accuracy |
+|Case Number| Architecture  | Number of epochs | Loss | Accuracy |
 |-------| ------------- | ---------------- | ---- | -------- |
 |1| VGG Trasnfer Learning (flatten, FC RELU, Softmax)  | 10  | 0.2735 | 0.9077 |
 |2| VGG Trasnfer Learning (flatten, FC RELU, Softmax, layer 16 is Freezed)  | 10  | 0.2565 | 0.9083 |
